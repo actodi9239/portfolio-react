@@ -46,15 +46,15 @@ export default function Skills() {
                 <SkillCard name="aws" experience="5 months" img={aws} />
                 <SkillCard name="remix" experience="1 years" img={remix} />
                 <SkillCard name="python" experience="6 months" img={python} />
-                <SkillCard name="javascript" experience="1 years" img={javascript} />
-                <SkillCard name="react" experience="1 years" img={reactIcon} />
+                <SkillCard name="javascript" experience="2 years" img={javascript} />
+                <SkillCard name="react" experience="2 years" img={reactIcon} />
                 <SkillCard name="tailwind" experience="1 years" img={tailwind} />
                 <SkillCard name="figma" experience="1 years" img={figma} />
                 <SkillCard name="mikrotik" experience="6 months" img={mikrotik} />
                 <SkillCard name="wordpress" experience="3 years" img={wordpress} />
                 <SkillCard name="next" experience="1 years" img={next} />
-                <SkillCard name="azure" experience="1 years" img={azure} />
-                <SkillCard name="react" experience="1 years" img={react} />
+                <SkillCard name="azure" experience="2 years" img={azure} />
+                <SkillCard name="react" experience="2 years" img={react} />
                 <SkillCard name="cisco" experience="6 months" img={cisco} />
                 <SkillCard name="github" experience="1 years" img={github} />
                 <SkillCard name="git" experience="1 years" img={git} />
