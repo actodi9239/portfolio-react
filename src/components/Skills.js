@@ -26,6 +26,7 @@ import photoshop from "../assets/skills/photoshop.png"
 import selenium from "../assets/skills/selenium.png"
 import ts from "../assets/skills/ts.png"
 import docker from "../assets/skills/docker.svg"
+import csharp from "../assets/skills/csharp.png"
 
 export default function Skills() {
     const settings = {
@@ -44,28 +45,29 @@ export default function Skills() {
             <div className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="aws" experience="5 months" img={aws} />
-                <SkillCard name="remix" experience="1 years" img={remix} />
+                <SkillCard name="remix" experience="1 year" img={remix} />
                 <SkillCard name="python" experience="6 months" img={python} />
                 <SkillCard name="javascript" experience="2 years" img={javascript} />
                 <SkillCard name="react" experience="2 years" img={reactIcon} />
-                <SkillCard name="tailwind" experience="1 years" img={tailwind} />
-                <SkillCard name="figma" experience="1 years" img={figma} />
+                <SkillCard name="tailwind" experience="1 year" img={tailwind} />
+                <SkillCard name="figma" experience="1 year" img={figma} />
                 <SkillCard name="mikrotik" experience="6 months" img={mikrotik} />
                 <SkillCard name="wordpress" experience="3 years" img={wordpress} />
-                <SkillCard name="next" experience="1 years" img={next} />
-                <SkillCard name="azure" experience="2 years" img={azure} />
+                <SkillCard name="next" experience="1 year" img={next} />
+                <SkillCard name="azure" experience="1 year" img={azure} />
                 <SkillCard name="react" experience="2 years" img={react} />
                 <SkillCard name="cisco" experience="6 months" img={cisco} />
-                <SkillCard name="github" experience="1 years" img={github} />
-                <SkillCard name="git" experience="1 years" img={git} />
-                <SkillCard name="express" experience="1 years" img={express} />
-                <SkillCard name="gitlab" experience="1 years" img={gitlab} />
-                <SkillCard name="illustrator" experience="1 years" img={illustrator} />
+                <SkillCard name="github" experience="1 year" img={github} />
+                <SkillCard name="git" experience="1 year" img={git} />
+                <SkillCard name="express" experience="1 year" img={express} />
+                <SkillCard name="gitlab" experience="1 year" img={gitlab} />
+                <SkillCard name="illustrator" experience="1 year" img={illustrator} />
                 <SkillCard name="java" experience="3 years" img={java} />
                 <SkillCard name="photoshop" experience="2 years" img={photoshop} />
-                <SkillCard name="selenium" experience="1 years" img={selenium} />
-                <SkillCard name="typescripy" experience="6 month" img={ts} />
+                <SkillCard name="selenium" experience="1 year" img={selenium} />
+                <SkillCard name="typescripy" experience="1 year" img={ts} />
                 <SkillCard name="docker" experience="5 month" img={docker} />
+                <SkillCard name="C#" experience="1 year" img={csharp} />
                 </Slider>
             </div>
         </div>
