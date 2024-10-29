@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-react/build/static/css/main.737d869d.css",
-    "main.js": "/portfolio-react/build/static/js/main.03abf25f.js",
+    "main.js": "/portfolio-react/build/static/js/main.5a4d11db.js",
     "static/js/787.a7249224.chunk.js": "/portfolio-react/build/static/js/787.a7249224.chunk.js",
     "static/media/backgroundImage.png": "/portfolio-react/build/static/media/backgroundImage.1574313470854c7cce3b.png",
     "static/media/azure.png": "/portfolio-react/build/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/selenium.png": "/portfolio-react/build/static/media/selenium.8acd00a91ebc15e2633e.png",
     "static/media/photoshop.png": "/portfolio-react/build/static/media/photoshop.d97a79e41d82f4c2c5ff.png",
-    "static/media/resume.pdf": "/portfolio-react/build/static/media/resume.b9b1805e168505125765.pdf",
     "static/media/mikrotik.svg": "/portfolio-react/build/static/media/mikrotik.d2e17a6764779d1cc982433d85aeeb58.svg",
+    "static/media/resume.pdf": "/portfolio-react/build/static/media/resume.39a7d07cea7b7a9037b5.pdf",
     "static/media/figma.png": "/portfolio-react/build/static/media/figma.66c3d555e1026dab7020.png",
     "static/media/diegoProfile3.png": "/portfolio-react/build/static/media/diegoProfile3.386ad792e9551f63dd20.png",
     "static/media/github.png": "/portfolio-react/build/static/media/github.ecf329c2c06a1f41fae4.png",
@@ -35,11 +35,11 @@
     "static/media/express.svg": "/portfolio-react/build/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "index.html": "/portfolio-react/build/index.html",
     "main.737d869d.css.map": "/portfolio-react/build/static/css/main.737d869d.css.map",
-    "main.03abf25f.js.map": "/portfolio-react/build/static/js/main.03abf25f.js.map",
+    "main.5a4d11db.js.map": "/portfolio-react/build/static/js/main.5a4d11db.js.map",
     "787.a7249224.chunk.js.map": "/portfolio-react/build/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.737d869d.css",
-    "static/js/main.03abf25f.js"
+    "static/js/main.5a4d11db.js"
   ]
 }
