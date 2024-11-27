@@ -35,7 +35,7 @@ export default function Certs(){
                 <CertCard name="Java Basic Module" img={Java} issued="Universidad Mayor de San Simon" date="Jul 2016" />
                 <CertCard name="Network Information Routing" img={Encaminamiento} issued="Universidad Mayor de San Simon" date="Jun 2022" />
                 <CertCard name="University Programming Competition" img={SansiCup} issued="Universidad Mayor de San Simon" date="Dec 2023" />
-                <CertCard name="Wiring Seminar" img={Electrored} issued="Dicodig Indonesia" date="May 2017" />
+                <CertCard name="Wiring Seminar" img={Electrored} issued="Cochabamba Society of Engineers" date="May 2017" />
                 <CertCard name="Assistant in the IT and Systems Department computer lab" img={AuxUmss} issued="Universidad Mayor de San Simon" date="2023" />
                 <CertCard name="Spring Boot" img={SpringBoot} issued="Universidad Mayor de San Simon" date="Apr 2024" />
                 <CertCard name="Installation and Configuration of Computer Networks" img={RedesComp} issued="Universidad Mayor de San Simon" date="Apr 2024" />
