@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio-react/build/static/css/main.c585d6e5.css",
-    "main.js": "/portfolio-react/build/static/js/main.281bc2d6.js",
+    "main.js": "/portfolio-react/build/static/js/main.9a885749.js",
     "static/js/787.a7249224.chunk.js": "/portfolio-react/build/static/js/787.a7249224.chunk.js",
     "static/media/Electrored.png": "/portfolio-react/build/static/media/Electrored.7eb5baa5e19c0c82591d.png",
     "static/media/RedesComp.png": "/portfolio-react/build/static/media/RedesComp.bdf97e31c4b3ac830cac.png",
     "static/media/MantComp.png": "/portfolio-react/build/static/media/MantComp.7c1d862540eb4d77e2ed.png",
     "static/media/SpringBoot.png": "/portfolio-react/build/static/media/SpringBoot.2c0fd38e59c7cc309012.png",
-    "static/media/C\u0000#.png": "/portfolio-react/build/static/media/C#.734d83fce0f814dd6145.png",
+    "static/media/C.png": "/portfolio-react/build/static/media/C.734d83fce0f814dd6145.png",
     "static/media/Java.png": "/portfolio-react/build/static/media/Java.60763507018f58abcec5.png",
     "static/media/Encaminamiento.png": "/portfolio-react/build/static/media/Encaminamiento.2d9007ed7c6033bd1772.png",
     "static/media/SansiCup.png": "/portfolio-react/build/static/media/SansiCup.e0b133826376fa2ea34d.png",
@@ -44,11 +44,11 @@
     "static/media/express.svg": "/portfolio-react/build/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "index.html": "/portfolio-react/build/index.html",
     "main.c585d6e5.css.map": "/portfolio-react/build/static/css/main.c585d6e5.css.map",
-    "main.281bc2d6.js.map": "/portfolio-react/build/static/js/main.281bc2d6.js.map",
+    "main.9a885749.js.map": "/portfolio-react/build/static/js/main.9a885749.js.map",
     "787.a7249224.chunk.js.map": "/portfolio-react/build/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c585d6e5.css",
-    "static/js/main.281bc2d6.js"
+    "static/js/main.9a885749.js"
   ]
 }

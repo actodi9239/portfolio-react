@@ -12,7 +12,7 @@ import AuxUmss from "../assets/certificates/AuxUmss2023.png"
 import SpringBoot from "../assets/certificates/SpringBoot.png"
 import RedesComp from "../assets/certificates/RedesComp.png"
 import MantComp from "../assets/certificates/MantComp.png"
-import C from "../assets/certificates/C#.png"
+import C from "../assets/certificates/C.png"
 
 
 export default function Certs(){
