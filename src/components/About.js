@@ -10,7 +10,7 @@ export default function About() {
                 <h1 className="text-xl text-gray-400">Hi, I'm</h1>
                 <h1 className="text-2xl font-bold">Diego Acosta</h1>
                 <p className="text-xl font-bold text-gray-300">System Engineer</p>
-                <p className="text-md font-light text-gray-400 ">I am a technology enthusiast, I love computers and learning more about this topic. I have experience in IT since 2018 and in web development in the front-end area since 2022 and I continue to learn to date to improve my knowledge.</p>
+                <p className="text-md font-light text-gray-400 ">I am a technology enthusiast with experience in Front-end (React JS, Angular, Next JS) and Back-end (Express, .NET). I have skills in software quality doing automated testing, using tools such as Python, pyTest in API and Selenium, Mocha and Chai, integrated in BrowserStack and GitHub Actions for UI testing with Allure. I have 4 years of experience in IT, managing servers, equipment and routers, as well as having been an assistant in development laboratories at the Universidad Mayor de San Simón. I like to be able to meet my goals, work in a team and I have experience working under pressure.</p>
             </div>
 
             <ul className='flex mt-2 gap-4 items-center'>

@@ -23,6 +23,11 @@ const Navbar = ({ onSlideChange }) => {
               Work Experience
             </button>
           </li>
+          <li className="p-4">
+            <button onClick={() => onSlideChange(3)} className="hover:underline">
+              Certs
+            </button>
+          </li>
         </ul>
       </div>
     </div>

@@ -1,36 +1,48 @@
 import CertCard from "./CertCard.js"
 
-import hr from "../assets/curve-hr.svg"
-import mtcna from "../assets/certs/mtcna.jpg"
-import adinusa from "../assets/certs/adinusa.png"
-import dicodingAws from "../assets/certs/dicoding-aws.png"
-import dicodingJs from "../assets/certs/dicoding-js.png"
-import dicodingNetwork from "../assets/certs/dicoding-network.png"
-import progateHtml from "../assets/certs/progate-htmlcss.png"
-import progateJs from "../assets/certs/progate-js.png"
-import fccResponsive from "../assets/certs/fcc-responsive.png"
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 
-// import 
+import Java from "../assets/certificates/Java.png"
+import Encaminamiento from "../assets/certificates/Encaminamiento.png"
+import SansiCup from "../assets/certificates/SansiCup.png"
+import Electrored from "../assets/certificates/Electrored.png"
+import AuxUmss from "../assets/certificates/AuxUmss2023.png"
+import SpringBoot from "../assets/certificates/SpringBoot.png"
+import RedesComp from "../assets/certificates/RedesComp.png"
+import MantComp from "../assets/certificates/MantComp.png"
+import C from "../assets/certificates/C#.png"
+
 
 export default function Certs(){
+
+    const settings = {
+        dots: false,
+        autoplay: true,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1
+      };
+      
     return (
         <div id="certs" className="mt-4 text-white">
             <h1 className="text-2xl font-bold">Certifications</h1>
             <p className="font-light text-gray-400">Here are some of my Certifications</p>
-
             {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
-            <div className="grid grid-cols-1 md:grid-cols-3 justify-center mt-4 gap-5">
-                <CertCard name="Bootcamp Btech Academy Cloud Engineer" img={adinusa} issued="Adinusa" date="Jul 2022" />
-                <CertCard name="Mikrotik Certfied Network Associate" img={mtcna} issued="Mikrotik" date="Jun 2022" />
-                <CertCard name="Cloud Practitioner Essentials" img={dicodingAws} issued="Dicoding Indonesia" date="Feb 2022" />
-                <CertCard name="Dasar Pemprograman Javascript" img={dicodingJs} issued="Dicodig Indonesia" date="Mei 2021" />
-                <CertCard name="Jaringan Komputer untuk Pemula" img={dicodingNetwork} issued="Dicodig Indonesia" date="Jan 2023" />
-                <CertCard name="Responsive Web Design " img={fccResponsive} issued="Dicodig Indonesia" date="Dec 21" />
-                <CertCard name="Kursus Javascript" img={progateJs} issued="Progate" date="Oct 2020" />
-                <CertCard name="Kursus HTML & CSS" img={progateHtml} issued="Progate" date="Oct 2020" />
-
+            <div className="mt-4">
+                <Slider {...settings}>
+                <CertCard name="Java Basic Module" img={Java} issued="Universidad Mayor de San Simon" date="Jul 2016" />
+                <CertCard name="Network Information Routing" img={Encaminamiento} issued="Universidad Mayor de San Simon" date="Jun 2022" />
+                <CertCard name="University Programming Competition" img={SansiCup} issued="Universidad Mayor de San Simon" date="Dec 2023" />
+                <CertCard name="Wiring Seminar" img={Electrored} issued="Dicodig Indonesia" date="May 2017" />
+                <CertCard name="Assistant in the IT and Systems Department computer lab" img={AuxUmss} issued="Universidad Mayor de San Simon" date="2023" />
+                <CertCard name="Spring Boot" img={SpringBoot} issued="Universidad Mayor de San Simon" date="Apr 2024" />
+                <CertCard name="Installation and Configuration of Computer Networks" img={RedesComp} issued="Universidad Mayor de San Simon" date="Apr 2024" />
+                <CertCard name="Computer Maintenance" img={MantComp} issued="Universidad Mayor de San Simon" date="Apr 2024" />
+                <CertCard name="Backend Development with C# and .NET" img={C} issued="Universidad Mayor de San Simon" date="Aug 2024" />
+                </Slider>
             </div>
-            <img src={hr} className="w-full mt-8 md:h-2" alt="hr" />
         </div>
     )
 }
