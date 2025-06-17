@@ -1,6 +1,5 @@
 import './App.css';
 import { useEffect } from 'react';
-import Navbar from './components/Navbar';
 import Hiro from './components/Hiro';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -13,8 +12,15 @@ function App() {
     }, []);
 
     return (
-        <div className="px-6 lg:px-20 xl:px-36 bg-cover bg-center" style={{backgroundImage: `url(${backgroundImage})`}}>
-            <Navbar />
+        <div 
+            className="
+                min-h-screen
+                bg-cover bg-center
+                px-2 sm:px-4 md:px-10 lg:px-20 xl:px-36
+            "
+            style={{backgroundImage: `url(${backgroundImage})`}}
+        >
+          
             <Hiro />
         </div>
     );

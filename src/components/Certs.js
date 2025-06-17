@@ -17,20 +17,25 @@ import enyoi from "../assets/certificates/enyoi.png"
 
 
 export default function Certs(){
-
     const settings = {
         dots: false,
         autoplay: true,
         infinite: true,
         slidesToShow: 1,
-        slidesToScroll: 1
-      };
-      
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }
+        ]
+    };
     return (
-        <div id="certs" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Certifications</h1>
+        <div id="certs" className="mt-2 text-white px-2 sm:px-4 md:px-8">
+            <h1 className="text-2xl sm:text-3xl font-bold">Certifications</h1>
             <p className="font-light text-gray-400">Here are some of my Certifications</p>
-            {/* <div className="flex flex-col md:flex-row flex-wrap mt-4 gap-5"> */}
             <div className="mt-4">
                 <Slider {...settings}>
                 <CertCard name="Java Basic Module" img={Java} issued="Universidad Mayor de San Simon" date="Jul 2016" />

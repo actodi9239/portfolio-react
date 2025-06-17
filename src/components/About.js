@@ -7,10 +7,12 @@ export default function About() {
     return (
         <div>
             <div className="flex flex-col w-full mt-8">
-                <h1 className="text-xl text-gray-400">Hi, I'm</h1>
-                <h1 className="text-2xl font-bold">Diego Acosta</h1>
-                <p className="text-xl font-bold text-gray-300">System Engineer</p>
-                <p className="text-md font-light text-gray-400 ">I am a technology enthusiast with experience in Front-end (React JS, Angular, Next JS) and Back-end (Express, .NET). I have skills in software quality doing automated testing, using tools such as Python, pyTest in API and Selenium, Mocha and Chai, integrated in BrowserStack and GitHub Actions for UI testing with Allure. I have 4 years of experience in IT, managing servers, equipment and routers, as well as having been an assistant in development laboratories at the Universidad Mayor de San Simón. I like to be able to meet my goals, work in a team and I have experience working under pressure.</p>
+                <h1 className="text-2xl text-gray-400">Hi, I'm</h1>
+                <h1 className="text-3xl font-bold">Diego Acosta</h1>
+                <p className="text-2xl font-bold text-gray-300">System Engineer</p>
+                <p className="text-lg font-light text-gray-400">
+                    I am a technology enthusiast with experience in Front-end (React JS, Angular, Next JS) and Back-end (Express, .NET). I have skills in software quality doing automated testing, using tools such as Python, pyTest in API and Selenium, Mocha and Chai, integrated in BrowserStack and GitHub Actions for UI testing with Allure. I have 4 years of experience in IT, managing servers, equipment and routers, as well as having been an assistant in development laboratories at the Universidad Mayor de San Simón. I like to be able to meet my goals, work in a team and I have experience working under pressure.
+                </p>
             </div>
 
             <ul className='flex mt-2 gap-4 items-center'>

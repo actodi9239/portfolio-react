@@ -34,14 +34,27 @@ export default function Skills() {
         autoplay: true,
         infinite: true,
         slidesToShow: 2,
-        slidesToScroll: 1
-      };
+        slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 640,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                }
+            }
+        ]
+    };
 
     return (
-        <div id="skills" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Skills</h1>
+        <div id="skills" className="mt-2 text-white px-2 sm:px-4 md:px-8">
+            <h1 className="text-2xl sm:text-3xl font-bold">Skills</h1>
             <p className="font-light text-gray-400">Here are some of my skills</p>
-
             <div className="mt-4">
                 <Slider {...settings}>
                 <SkillCard name="aws" experience="5 months" img={aws} />

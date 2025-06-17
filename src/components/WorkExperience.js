@@ -12,13 +12,7 @@ export default function WorkExperience() {
         slidesToScroll: 1,
         responsive: [
             {
-                breakpoint: 768, // Ajustar configuración para dispositivos pequeños
-                settings: {
-                    slidesToShow: 1,
-                }
-            },
-            {
-                breakpoint: 1024, // Ajustar configuración para dispositivos medianos
+                breakpoint: 768,
                 settings: {
                     slidesToShow: 1,
                 }
@@ -27,10 +21,9 @@ export default function WorkExperience() {
     };
 
     return (
-        <div id="workExperience" className="mt-4 text-white">
-            <h1 className="text-2xl font-bold">Work experience</h1>
+        <div id="workExperience" className="mt-2 text-white px-2 sm:px-4 md:px-8">
+            <h1 className="text-2xl sm:text-3xl font-bold">Work experience</h1>
             <p className="font-light text-gray-400">This is my work experience</p>
-
             <div className="mt-4">
                 <Slider {...settings}>
                     <WorkCard name="Laboratory Assistant" issued="Universidad Mayor de San Simón" desc="•	Support to the maintenance department, Server support and network maintenance, Programming instructor" />
