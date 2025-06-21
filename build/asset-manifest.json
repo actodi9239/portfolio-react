@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/build/static/css/main.8cdcb6eb.css",
-    "main.js": "/portfolio-react/build/static/js/main.82d93ef3.js",
+    "main.js": "/portfolio-react/build/static/js/main.9be078c2.js",
     "static/js/787.a7249224.chunk.js": "/portfolio-react/build/static/js/787.a7249224.chunk.js",
     "static/media/Electrored.png": "/portfolio-react/build/static/media/Electrored.7eb5baa5e19c0c82591d.png",
     "static/media/RedesComp.png": "/portfolio-react/build/static/media/RedesComp.bdf97e31c4b3ac830cac.png",
@@ -16,14 +16,11 @@
     "static/media/azure.png": "/portfolio-react/build/static/media/azure.5a694f18b0e4f276ce48.png",
     "static/media/enyoi.png": "/portfolio-react/build/static/media/enyoi.8260415975273e4d478e.png",
     "static/media/selenium.png": "/portfolio-react/build/static/media/selenium.8acd00a91ebc15e2633e.png",
-    "static/media/photoshop.png": "/portfolio-react/build/static/media/photoshop.d97a79e41d82f4c2c5ff.png",
-    "static/media/mikrotik.svg": "/portfolio-react/build/static/media/mikrotik.d2e17a6764779d1cc982433d85aeeb58.svg",
     "static/media/resume.pdf": "/portfolio-react/build/static/media/resume.8237eaa16087f79dab90.pdf",
     "static/media/figma.png": "/portfolio-react/build/static/media/figma.66c3d555e1026dab7020.png",
     "static/media/github.png": "/portfolio-react/build/static/media/github.ecf329c2c06a1f41fae4.png",
     "static/media/DD.jpg": "/portfolio-react/build/static/media/DD.ae762ab81108d1e7d8b7.jpg",
     "static/media/ts.png": "/portfolio-react/build/static/media/ts.659e4b9351cf1baa6930.png",
-    "static/media/wordpress.png": "/portfolio-react/build/static/media/wordpress.51915fb37b9e76913fc4.png",
     "static/media/Next.png": "/portfolio-react/build/static/media/Next.bb3afb9308a86c38e95a.png",
     "static/media/java.png": "/portfolio-react/build/static/media/java.6c1a3b5f7e2d535bff5b.png",
     "static/media/csharp.png": "/portfolio-react/build/static/media/csharp.ec0b08f293f102c4cf81.png",
@@ -31,10 +28,8 @@
     "static/media/diego.jpg": "/portfolio-react/build/static/media/diego.37833c31bc02d8298686.jpg",
     "static/media/Remix.png": "/portfolio-react/build/static/media/Remix.6f7244e18ee5111729fc.png",
     "static/media/react.svg": "/portfolio-react/build/static/media/react.19465659ecf7a1122618d3dcf23bf337.svg",
-    "static/media/python.svg": "/portfolio-react/build/static/media/python.e78f188fa5e62ee2613d19802f817df6.svg",
     "static/media/docker.svg": "/portfolio-react/build/static/media/docker.fec5c368807b57ea14a3f991f894c53d.svg",
     "static/media/slick.svg": "/portfolio-react/build/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/cisco.svg": "/portfolio-react/build/static/media/cisco.d1403551b12b6376a0f1e1b3973d19b7.svg",
     "static/media/slick.eot": "/portfolio-react/build/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/portfolio-react/build/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/git.svg": "/portfolio-react/build/static/media/git.8497c3c4218d87dc7fd569a5549d60d0.svg",
@@ -45,11 +40,11 @@
     "static/media/express.svg": "/portfolio-react/build/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "index.html": "/portfolio-react/build/index.html",
     "main.8cdcb6eb.css.map": "/portfolio-react/build/static/css/main.8cdcb6eb.css.map",
-    "main.82d93ef3.js.map": "/portfolio-react/build/static/js/main.82d93ef3.js.map",
+    "main.9be078c2.js.map": "/portfolio-react/build/static/js/main.9be078c2.js.map",
     "787.a7249224.chunk.js.map": "/portfolio-react/build/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cdcb6eb.css",
-    "static/js/main.82d93ef3.js"
+    "static/js/main.9be078c2.js"
   ]
 }
