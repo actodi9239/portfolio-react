@@ -14,6 +14,7 @@ import RedesComp from "../assets/certificates/RedesComp.png"
 import MantComp from "../assets/certificates/MantComp.png"
 import C from "../assets/certificates/C.png"
 import enyoi from "../assets/certificates/enyoi.png"
+import DiploQA from "../assets/certificates/TITULO DIPLOMADO.jpg" ;
 
 
 export default function Certs(){
@@ -48,6 +49,7 @@ export default function Certs(){
                 <CertCard name="Computer Maintenance" img={MantComp} issued="Universidad Mayor de San Simon" date="Apr 2024" />
                 <CertCard name="Backend Development with C# and .NET" img={C} issued="Universidad Mayor de San Simon" date="Aug 2024" />
                 <CertCard name="Fullstack Ract+Node.Js" img={enyoi} issued="Colombia" date="Nov 2024" />
+                <CertCard name="Diploma in Quality Assurance" img={DiploQA} issued="Universidad Mayor de San Simon" date="Dec 2024" />
                 </Slider>
             </div>
         </div>

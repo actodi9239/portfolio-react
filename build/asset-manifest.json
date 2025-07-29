@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-react/build/static/css/main.8cdcb6eb.css",
-    "main.js": "/portfolio-react/build/static/js/main.9be078c2.js",
+    "main.js": "/portfolio-react/build/static/js/main.d7c6077b.js",
     "static/js/787.a7249224.chunk.js": "/portfolio-react/build/static/js/787.a7249224.chunk.js",
     "static/media/Electrored.png": "/portfolio-react/build/static/media/Electrored.7eb5baa5e19c0c82591d.png",
     "static/media/RedesComp.png": "/portfolio-react/build/static/media/RedesComp.bdf97e31c4b3ac830cac.png",
@@ -10,6 +10,7 @@
     "static/media/C.png": "/portfolio-react/build/static/media/C.734d83fce0f814dd6145.png",
     "static/media/Java.png": "/portfolio-react/build/static/media/Java.60763507018f58abcec5.png",
     "static/media/Encaminamiento.png": "/portfolio-react/build/static/media/Encaminamiento.2d9007ed7c6033bd1772.png",
+    "static/media/TITULO DIPLOMADO.jpg": "/portfolio-react/build/static/media/TITULO DIPLOMADO.0665eaf58be5a3b2e518.jpg",
     "static/media/SansiCup.png": "/portfolio-react/build/static/media/SansiCup.e0b133826376fa2ea34d.png",
     "static/media/backgroundImage.png": "/portfolio-react/build/static/media/backgroundImage.1574313470854c7cce3b.png",
     "static/media/AuxUmss2023.png": "/portfolio-react/build/static/media/AuxUmss2023.fc553de74f1d3c1ed7a8.png",
@@ -40,11 +41,11 @@
     "static/media/express.svg": "/portfolio-react/build/static/media/express.ea97b712340ffb8f11d85ccb96309507.svg",
     "index.html": "/portfolio-react/build/index.html",
     "main.8cdcb6eb.css.map": "/portfolio-react/build/static/css/main.8cdcb6eb.css.map",
-    "main.9be078c2.js.map": "/portfolio-react/build/static/js/main.9be078c2.js.map",
+    "main.d7c6077b.js.map": "/portfolio-react/build/static/js/main.d7c6077b.js.map",
     "787.a7249224.chunk.js.map": "/portfolio-react/build/static/js/787.a7249224.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8cdcb6eb.css",
-    "static/js/main.9be078c2.js"
+    "static/js/main.d7c6077b.js"
   ]
 }
